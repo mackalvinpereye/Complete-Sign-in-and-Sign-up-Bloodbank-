@@ -1,0 +1,90 @@
+body {
+	background-image: url('bg.jpg');
+	display: flex ;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+* {
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+form {
+	width: 500px;
+	border: 2px solid #580000;
+	padding: 30px;
+	background: whitesmoke;
+	border-radius: 10px;
+}
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+	color: #580000;
+}
+input {
+	display: block;
+	border: 1px solid #ccc;
+	width: 80%;
+	padding: 10px;
+	margin: 4px auto;
+	border-radius: 5px;
+}
+button {
+	border: none;
+	border-radius: 5px;
+	width: 80%;
+  	padding: 11px 15px;
+  	margin: 4px;
+  	margin-left: 44px;
+  	color: white;
+  	background-color: darkred;
+  	border: 1px solid;
+}
+button:hover {
+	background-color: #Dc4a4a;
+}
+.error{
+	background: #FDBABA;
+	color: #9a3b3b;
+	padding: 10px;
+	margin-left: 44px;
+	width: 80%;
+	border-radius: 5px;
+}
+.success{
+	background: #C6F4BB;
+	color: #4B8B3D;
+	padding: 10px;
+	margin-left: 44px;
+	width: 80%;
+	border-radius: 5px;
+}
+h1 {
+	padding-right: 1170px;
+	padding-bottom: 670px;
+	color: #fff;
+}
+.li {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #444;
+	margin-left: 70px;
+	margin-top: 25px;
+}
+.li:hover {
+	text-decoration: underline;
+}
+.su {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #444;
+	margin-left: 87px;
+	margin-top: 25px;
+}
+.su:hover {
+	text-decoration: underline;
+}
